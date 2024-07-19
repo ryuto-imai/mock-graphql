@@ -1,0 +1,1 @@
+Next.jsでAppRouterを使った環境で、GraphQLレスポンスをMSWでモック化する
