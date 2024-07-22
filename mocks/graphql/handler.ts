@@ -1,5 +1,5 @@
 import { AddUserDocument, UsersDocument } from '@/graphql/generated/schema'
-import { graphql, http, HttpResponse } from 'msw'
+import { graphql, HttpResponse } from 'msw'
 
 export const userHandlers = [
   graphql.query(UsersDocument, () => {
